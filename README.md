@@ -27,8 +27,10 @@ go run main.go
 ````
 
 # 具体详情
-所以大致需要准备的东西是：
+所以大致需要准备的东西是:
+
 1、CentOS 7操作系统的服务器一台
+
 2、gpt账号的apikey一个
 
 一. CentOS安装GoLang环境
@@ -105,7 +107,9 @@ go run hello.go
 
 2、API Key获取
 在浏览器中输入 https://beta.openai.com/docs/quickstart/getting-started ，点击“Create API Key”。
+
 填写你的 API Key 名称，然后点击“Create”。
+
 复制你的 API Key，你就可以使用 OpenAI 的 API 了。
 
 三. wechat-ChatGPT拉取和部署
@@ -128,6 +132,7 @@ cp config.dev.json config.json
 go run main.go
 ```
 程序运行之后，会在控制台显示一个链接，你可以直接点击那个链接，在浏览器中打开，会出现一个二维码，用微信扫码登录即可。
+
 然后你就可以让别人给你发消息试试，如果能自动回复说明没问题了，在群聊里的话得@才行，如果有问题那就看一下终端里的日志输出。
 
 四. 打包和运行可执行程序
