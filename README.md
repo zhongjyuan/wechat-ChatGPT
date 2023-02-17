@@ -10,23 +10,6 @@
 chatGPT注册可以参考[这里](https://mp.weixin.qq.com/s/GfBn1BW02PJSw7gDHJcLlw)
 
 # 安装使用
-````
-# 获取项目
-git clone https://github.com/zhongjyuan/wechat-ChatGPT.git
-
-# 进入项目目录
-cd wechat-ChatGPT
-
-# 复制配置文件
-copy config.dev.json config.json
-
-# 启动项目
-go run main.go
-
-启动前需替换config中的api_key
-````
-
-# 具体详情
 所以大致需要准备的东西是:
 
 1、CentOS 7操作系统的服务器一台
