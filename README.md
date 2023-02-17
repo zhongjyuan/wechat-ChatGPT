@@ -100,7 +100,9 @@ go run hello.go
 如果能够成功打印，就说明golang环境没问题了。
 
 二.ChatGPT注册及使用验证信息API key
+
 1、ChatGPT注册参看[这里](https://mp.weixin.qq.com/s/GfBn1BW02PJSw7gDHJcLlw)
+
 2、API Key获取
 在浏览器中输入 https://beta.openai.com/docs/quickstart/getting-started ，点击“Create API Key”。
 填写你的 API Key 名称，然后点击“Create”。
