@@ -26,8 +26,7 @@ go run main.go
 启动前需替换config中的api_key
 ````
 
-#具体详情
-````
+# 具体详情
 所以大致需要准备的东西是：
 1、CentOS 7操作系统的服务器一台
 2、gpt账号的apikey一个
@@ -157,4 +156,3 @@ ps ax
 ```shell
 sudo kill 进程id
 ```
-````
