@@ -24,6 +24,7 @@ copy config.dev.json config.json
 go run main.go
 
 启动前需替换config中的api_key
+````
 
 #具体详情
 ````
@@ -156,3 +157,4 @@ ps ax
 ```shell
 sudo kill 进程id
 ```
+````
